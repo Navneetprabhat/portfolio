@@ -1,0 +1,141 @@
+/* Global styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #ccc;
+}
+
+header h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  text-shadow: 1px 1px #ccc;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* About section styles */
+section#about {
+  background-color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+section#about h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px #ccc;
+}
+
+section#about p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* Skills section styles */
+section#skills {
+  background-color: #f5f5f5;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+section#skills h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px #ccc;
+}
+
+section#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+section#skills li {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin: 10px;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Projects section styles */
+section#projects {
+  background-color: #fff;
+}
